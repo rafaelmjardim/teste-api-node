@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
     return res.json({message: 'Bem-vindo'})
 })
 
-app.listen(PORT, () => {
-    console.log(`Servidor rodando na por ${PORT}`);
+app.listen(3333, () => {
+    console.log(`Servidor rodando na porta 3333`);
 })
