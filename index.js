@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
     return res.json({message: 'Bem-vindo'})
 })
 
-app.listen(3333, () => {
+app.listen(443, () => {
     console.log(`Servidor rodando na porta 3333`);
 })
